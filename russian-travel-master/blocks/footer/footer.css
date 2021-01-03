@@ -1,0 +1,17 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto 0 auto;
+    padding-bottom: 25px;
+    width: 92.5%;
+}
+@media screen and (max-width: 700px) {
+    .footer {
+        width: 58.125%;
+        grid-template-rows: 1fr 0.11fr;
+        grid-template-columns: 1fr;
+        row-gap: 48px;
+        margin-left: 16px;
+        margin-bottom: 24px;
+    }
+}
